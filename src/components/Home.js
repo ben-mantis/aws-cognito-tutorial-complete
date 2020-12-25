@@ -3,9 +3,9 @@ import Hero from './Hero';
 import HomeContent from './HomeContent';
 
 export default function Home() {
+  console.log("checking");
+  console.log(process.env.TESTING);
   return (
-    console.log("checking");
-    console.log(process.env.TESTING);
     <Fragment>
       <Hero />
       <div className="box cta">
